@@ -1,0 +1,114 @@
+body,a,h1,h2,h3,h4,h5,h6,span,div,button{
+  font-family: mfont;
+}
+
+body{
+  background-color: #40403f;
+}
+
+.loginP{
+  display: flex;
+  justify-content: center;
+}
+
+.login_text{
+  text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.troubleLink{
+  font-weight: 700;
+  text-align: center;
+    color: gray;
+    font-size: x-large;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.heroTitle{
+  font-size: xx-large;
+    color: #a7a709;
+    font-weight: 700;
+  }
+
+.heroBack{
+  font-size: large;
+  cursor: pointer;
+  color: #8e8e93;
+  font-weight: 700;
+  display:flex;
+  align-items: center;
+}
+
+.home_findbtn{
+   height: 100px !important;
+   width:40% !important;
+  font-family: mfont !important;
+    background: gray !important;
+    border-radius: 0px !important;
+    font-size: x-large !important;
+    color: #40403f !important;
+    font-weight: 700 !important;
+    padding: 10px 50px !important;
+}
+
+.home_herobtn{
+  display: grid !important;
+   height: 100px !important;
+   width:100% !important;
+  font-family: mfont !important;
+    background: gray !important;
+    border-radius: 0px !important;
+    font-size: x-large !important;
+    color: #40403f !important;
+    font-weight: 700 !important;
+    padding: 10px 50px !important;
+}
+
+.home_button{
+  display: grid !important;
+   height: 100px !important;
+  font-family: mfont !important;
+    background: gray !important;
+    border-radius: 0px !important;
+    font-size: x-large !important;
+    color: #40403f !important;
+    font-weight: 700 !important;
+    padding: 10px 50px !important;
+}
+
+.login_button{
+  width: 250px !important;
+  font-family: mfont !important;
+    background: gray !important;
+    border-radius: 0px !important;
+    font-size: x-large !important;
+    color: #40403f !important;
+    font-weight: 700 !important;
+    padding: 25px !important;
+}
+
+
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 38%);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+  border-radius: 20px;
+}
+
+
+@font-face {
+    font-family: mfont;
+    src: url("./assets/font.ttf") format("opentype");
+}
